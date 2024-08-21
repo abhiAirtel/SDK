@@ -10,7 +10,7 @@ spec.homepage     = "https://github.com/abhiAirtel/SDK"
 spec.license      = "MIT"
 spec.author             = { "abhishek" => "abhishek.kumar+wynk@wynk.in" }
 spec.platform     = :ios, "13.0"
-spec.source       = { :git => "https://github.com/abhiAirtel/SDK.git", :tag => "v#{spec.version}" }
+spec.source       = { :git => "https://github.com/abhiAirtel/SDK.git", :tag => spec.version.to_s }
 spec.source_files  = "RepFramework/**/*.{h,swift}"
 
 spec.swift_versions = '5.0'
