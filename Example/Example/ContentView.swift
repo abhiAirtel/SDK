@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = AbhiTheSaviour()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer()
+            Text("🫵")
+                .font(.largeTitle)
+            Spacer()
+            Text(viewModel.token)
+                .font(.title)
+            Spacer()
+            Button("Set Push Token") {
+                viewModel.setPushToken()
+            }
+            Spacer()
         }
         .padding()
     }

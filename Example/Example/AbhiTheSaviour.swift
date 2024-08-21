@@ -8,7 +8,15 @@
 import Foundation
 import RepFramework
 
-class AbhiTheSaviour {
+class AbhiTheSaviour: ObservableObject {
+    @Published var token = "No Token set"
+
+    func setPushToken() {
+        let tokenn = UUID().uuidString
+//        RepMain.shared.setPushToken(token: tokenn)
+        token = tokenn
+        printingWorldIssue()
+    }
     
     func printingWorldIssue() {
         RepMain.shared.sayHello()
