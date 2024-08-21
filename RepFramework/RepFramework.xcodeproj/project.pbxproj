@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		6E624DD72C75EA1000925461 /* RepFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E624DD62C75EA1000925461 /* RepFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E624DDE2C75EA2700925461 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E624DDD2C75EA2700925461 /* File.swift */; };
-		6E624DE02C75EA3900925461 /* RepMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E624DDF2C75EA3900925461 /* RepMain.swift */; };
+		6E624DE22C75EC1000925461 /* RepMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E624DE12C75EC1000925461 /* RepMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E624DD32C75EA1000925461 /* RepFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RepFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E624DD62C75EA1000925461 /* RepFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepFramework.h; sourceTree = "<group>"; };
 		6E624DDD2C75EA2700925461 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		6E624DDF2C75EA3900925461 /* RepMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepMain.swift; sourceTree = "<group>"; };
+		6E624DE12C75EC1000925461 /* RepMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepMain.swift; path = Classes/RepMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +33,7 @@
 		6E624DC92C75EA1000925461 = {
 			isa = PBXGroup;
 			children = (
+				6E624DE12C75EC1000925461 /* RepMain.swift */,
 				6E624DD52C75EA1000925461 /* RepFramework */,
 				6E624DD42C75EA1000925461 /* Products */,
 			);
@@ -51,7 +52,6 @@
 			children = (
 				6E624DD62C75EA1000925461 /* RepFramework.h */,
 				6E624DDD2C75EA2700925461 /* File.swift */,
-				6E624DDF2C75EA3900925461 /* RepMain.swift */,
 			);
 			path = RepFramework;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E624DE02C75EA3900925461 /* RepMain.swift in Sources */,
+				6E624DE22C75EC1000925461 /* RepMain.swift in Sources */,
 				6E624DDE2C75EA2700925461 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

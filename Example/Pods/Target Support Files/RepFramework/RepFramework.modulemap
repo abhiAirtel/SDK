@@ -1,0 +1,6 @@
+framework module RepFramework {
+  umbrella header "RepFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

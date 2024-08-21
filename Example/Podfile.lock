@@ -1,0 +1,16 @@
+PODS:
+  - RepFramework (0.0.1)
+
+DEPENDENCIES:
+  - RepFramework (from `../`)
+
+EXTERNAL SOURCES:
+  RepFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RepFramework: 3e255f92fb9d93ca9c26bf44fe0273a5202cef27
+
+PODFILE CHECKSUM: 2f75f1371603982ac14e831eb2ea82da520f8740
+
+COCOAPODS: 1.15.2

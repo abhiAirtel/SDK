@@ -9,6 +9,9 @@ import Foundation
 
 public class RepMain {
     
+    public static var shared = RepMain()
+    
+    private init() {}
     
    public func sayHello() {
         

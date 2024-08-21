@@ -1,0 +1,21 @@
+{
+  "name": "RepFramework",
+  "version": "0.0.1",
+  "summary": "A super framework is RepFramework.",
+  "description": "Super duperrrr sample for framework added in your presence",
+  "homepage": "https://github.com/abhiAirtel/SDK",
+  "license": "MIT",
+  "authors": {
+    "abhishek": "abhishek.kumar+wynk@wynk.in"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/abhiAirtel/SDK.git",
+    "tag": "v0.0.1"
+  },
+  "source_files": "RepFramework/**/*.{h,swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
