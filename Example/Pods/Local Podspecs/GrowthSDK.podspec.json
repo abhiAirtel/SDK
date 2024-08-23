@@ -1,0 +1,21 @@
+{
+  "name": "GrowthSDK",
+  "version": "1.0.0",
+  "summary": "GrowthSDK empowers developers to create dynamic, engaging, and secure notification experiences.",
+  "description": "GrowthSDK is a robust and flexible solution designed to help developers effortlessly integrate push notifications into their applications. It simplifies the process of sending and managing notifications, ensuring timely and effective communication with your users.",
+  "homepage": "https://www.google.com/?client=safari",
+  "license": "MIT",
+  "authors": {
+    "abhishek": "abhishek.kumar+wynk@wynk.in"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/WynkLimited/growth-sdk-ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "GrowthSDK/**/*.{swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

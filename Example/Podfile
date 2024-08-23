@@ -8,5 +8,6 @@ target 'Example' do
   # Pods for Example
 
  pod 'RepFramework', :path => '../' 
+ pod 'GrowthSDK', :branch => 'FinalFrameWorkWithExposedCode', :git => 'https://github.com/WynkLimited/growth-sdk-ios.git'
 
 end

@@ -1,6 +1,6 @@
 {
   "name": "RepFramework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A super framework is RepFramework.",
   "description": "Super duperrrr sample for framework added in your presence",
   "homepage": "https://github.com/abhiAirtel/SDK",
@@ -13,9 +13,9 @@
   },
   "source": {
     "git": "https://github.com/abhiAirtel/SDK.git",
-    "tag": "v0.0.1"
+    "tag": "0.0.2"
   },
-  "source_files": "RepFramework/**/*.{h,swift}",
+  "vendored_frameworks": "RepFramework/build/RepFramework.xcframework",
   "swift_versions": "5.0",
   "swift_version": "5.0"
 }

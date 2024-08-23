@@ -1,16 +1,27 @@
 PODS:
-  - RepFramework (0.0.1)
+  - GrowthSDK (1.0.0)
+  - RepFramework (0.0.2)
 
 DEPENDENCIES:
+  - GrowthSDK (from `https://github.com/WynkLimited/growth-sdk-ios.git`, branch `FinalFrameWorkWithExposedCode`)
   - RepFramework (from `../`)
 
 EXTERNAL SOURCES:
+  GrowthSDK:
+    :branch: FinalFrameWorkWithExposedCode
+    :git: https://github.com/WynkLimited/growth-sdk-ios.git
   RepFramework:
     :path: "../"
 
-SPEC CHECKSUMS:
-  RepFramework: 3e255f92fb9d93ca9c26bf44fe0273a5202cef27
+CHECKOUT OPTIONS:
+  GrowthSDK:
+    :commit: dec76fa077031ba250e9f856f791f5a2f5943e8c
+    :git: https://github.com/WynkLimited/growth-sdk-ios.git
 
-PODFILE CHECKSUM: 2f75f1371603982ac14e831eb2ea82da520f8740
+SPEC CHECKSUMS:
+  GrowthSDK: b2b6a7372c67ebbf810a7c475a4202f557c914bf
+  RepFramework: abc87331162015c2a68666e7a1553b39cec00cfc
+
+PODFILE CHECKSUM: 0791c29e05b450a31411df8e5eba67717428f612
 
 COCOAPODS: 1.15.2

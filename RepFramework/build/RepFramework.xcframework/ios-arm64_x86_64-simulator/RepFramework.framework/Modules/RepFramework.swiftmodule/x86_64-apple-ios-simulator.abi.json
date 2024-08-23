@@ -1,0 +1,201 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RepFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RepMain",
+        "printedName": "RepMain",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RepMain",
+                "printedName": "RepFramework.RepMain",
+                "usr": "s:12RepFramework0A4MainC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12RepFramework0A4MainC6sharedACvpZ",
+            "mangledName": "$s12RepFramework0A4MainC6sharedACvpZ",
+            "moduleName": "RepFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RepMain",
+                    "printedName": "RepFramework.RepMain",
+                    "usr": "s:12RepFramework0A4MainC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12RepFramework0A4MainC6sharedACvgZ",
+                "mangledName": "$s12RepFramework0A4MainC6sharedACvgZ",
+                "moduleName": "RepFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RepMain",
+                    "printedName": "RepFramework.RepMain",
+                    "usr": "s:12RepFramework0A4MainC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12RepFramework0A4MainC6sharedACvsZ",
+                "mangledName": "$s12RepFramework0A4MainC6sharedACvsZ",
+                "moduleName": "RepFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12RepFramework0A4MainC6sharedACvMZ",
+                "mangledName": "$s12RepFramework0A4MainC6sharedACvMZ",
+                "moduleName": "RepFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12RepFramework0A4MainC8sayHelloyyF",
+            "mangledName": "$s12RepFramework0A4MainC8sayHelloyyF",
+            "moduleName": "RepFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHelloToWorld",
+            "printedName": "sayHelloToWorld()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12RepFramework0A4MainC15sayHelloToWorldyyF",
+            "mangledName": "$s12RepFramework0A4MainC15sayHelloToWorldyyF",
+            "moduleName": "RepFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12RepFramework0A4MainC",
+        "mangledName": "$s12RepFramework0A4MainC",
+        "moduleName": "RepFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RepFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/b0276971\/Documents\/GitHub\/SDK\/RepFramework\/Classes\/RepMain.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 26,
+      "value": "\"hello i am working fine \""
+    },
+    {
+      "filePath": "\/Users\/b0276971\/Documents\/GitHub\/SDK\/RepFramework\/Classes\/RepMain.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 67,
+      "value": "\"hello i am working fine for world are you going to work for me!!!\""
+    }
+  ]
+}

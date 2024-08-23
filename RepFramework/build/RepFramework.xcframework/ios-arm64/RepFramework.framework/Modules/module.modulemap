@@ -1,0 +1,11 @@
+framework module RepFramework {
+  umbrella header "RepFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module RepFramework.Swift {
+  header "RepFramework-Swift.h"
+  requires objc
+}

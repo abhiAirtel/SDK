@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("🫵")
                 .font(.largeTitle)
             Spacer()
-            Text(viewModel.token)
+            Text(viewModel.token + " has been set for " + viewModel.name + "-" + viewModel.gender)
                 .font(.title)
             Spacer()
             Button("Set Push Token") {

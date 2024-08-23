@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
-${BUILT_PRODUCTS_DIR}/RepFramework/RepFramework.framework
+${BUILT_PRODUCTS_DIR}/GrowthSDK/GrowthSDK.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RepFramework/RepFramework.framework/RepFramework

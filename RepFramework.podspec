@@ -11,8 +11,8 @@ spec.license      = "MIT"
 spec.author             = { "abhishek" => "abhishek.kumar+wynk@wynk.in" }
 spec.platform     = :ios, "13.0"
 spec.source       = { :git => "https://github.com/abhiAirtel/SDK.git", :tag => spec.version.to_s }
-spec.source_files  = "RepFramework/**/*.{h,swift}"
-
+#spec.source_files  = "RepFramework/**/*.{h,swift}"
+spec.vendored_frameworks = 'RepFramework/build/RepFramework.xcframework'
 spec.swift_versions = '5.0'
 
 end
